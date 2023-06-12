@@ -1,0 +1,35 @@
+.movies {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.movie {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+  background-color: #4d4b4b;
+}
+
+.movie img {
+  object-fit: contain;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 180px;
+  height: 260px;
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title p {
+  font-size: 14px;
+}

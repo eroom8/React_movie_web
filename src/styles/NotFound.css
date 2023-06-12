@@ -1,0 +1,21 @@
+.notFoundPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heading {
+  font-size: 100px;
+}
+
+.btn {
+  border: 0;
+  background-color: #173ee9;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 20px;
+}
